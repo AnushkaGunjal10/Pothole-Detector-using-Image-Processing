@@ -1,6 +1,6 @@
 #  Pothole Detection using Image Processing
 
-## 📌 Overview
+##  Overview
 
 This project detects potholes in road images using basic image processing techniques in Python. It applies edge detection to highlight potential pothole regions.
 
@@ -8,7 +8,7 @@ The system uses **OpenCV** to process images and identify edges, which can help 
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Load and process road images
 * Convert images to grayscale
@@ -18,7 +18,7 @@ The system uses **OpenCV** to process images and identify edges, which can help 
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 * Python
 * OpenCV (`cv2`)
@@ -38,7 +38,7 @@ Pothole-Detection/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -55,7 +55,7 @@ pip install opencv-python numpy
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 1. Place your image in the project directory.
 
@@ -75,7 +75,7 @@ python pothole.py
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 1. **Image Loading**
    Reads the input image from the given path.
@@ -97,7 +97,7 @@ python pothole.py
 ![alt text](output-1.png)
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * This method only detects edges, not actual potholes explicitly
 * Performance depends on lighting and image quality
@@ -105,7 +105,7 @@ python pothole.py
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Use Deep Learning (CNN) for better accuracy
 * Real-time pothole detection using video
